@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee3900c-1962-49b7-a9f3-1265b18e57b0" name="Changes" comment="Initial Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1ee3900c-1962-49b7-a9f3-1265b18e57b0" name="Changes" comment="castle-data submodule added">
+      <change afterPath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/repositories/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-data/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/castle-data/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-data/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/castle-data/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +47,37 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Programowanie/smart_home/castle/castle-data/src/main/java/com/castle/data",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programowanie\smart_home\castle\castle-data\src\main\java\com\castle\data" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CastleDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <envs>
+        <env name="MYSQL_USERNAME" value="castleuser" />
+        <env name="MYSQL_PASSWORD" value="SecretSpringPassword27" />
+      </envs>
+      <module name="castle-data.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.castle.data.CastleDataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671736515530</updated>
-      <workItem from="1671736515534" duration="123000" />
+      <workItem from="1671736515534" duration="513000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1671736559654</created>
@@ -67,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671736559654</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <created>1671736750756</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671736750756</updated>
+    </task>
+    <task id="LOCAL-00003" summary="castle-data submodule added">
+      <created>1671736825174</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671736825174</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +128,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="castle-data submodule added" />
+    <option name="LAST_COMMIT_MESSAGE" value="castle-data submodule added" />
   </component>
 </project>
