@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee3900c-1962-49b7-a9f3-1265b18e57b0" name="Changes" comment="Test Entity &quot;User&quot; and connectivity with database added">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/castle-data.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="1ee3900c-1962-49b7-a9f3-1265b18e57b0" name="Changes" comment="castle-weather-client module added as a submodule of castle">
+      <change afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/IWeatherClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/IWeatherClientSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/WeatherClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/WeatherClientSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/WeatherDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/WeatherSummaryDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-client/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/test/java/com/castle/weatherclient/CastleWeatherClientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/test/java/com/castle/weatherclient/WeatherClientTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +40,14 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -57,14 +70,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Programowanie/JAZ/lab-11-Jakub16",
+    "last_opened_file_path": "D:/Programowanie/smart_home/castle",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "aa10a8cbba82632232ee6fcf8b7e1988",
+    "spring.configuration.checksum": "7a227596af4b4065e18faa8e00b48c96",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -81,8 +94,9 @@
   <component name="RunManager" selected="Spring Boot.CastleDataApplication">
     <configuration name="CastleDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <envs>
-        <env name="MYSQL_USERNAME" value="castleuser" />
         <env name="MYSQL_PASSWORD" value="SecretSpringPassword27" />
+        <env name="MYSQL_USERNAME" value="castleuser" />
+        <env name="OPENWEATHERMAP_API_KEY" value="e04e68bd81725ee021ec994cfa3ee71f" />
       </envs>
       <module name="castle-data.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.castle.data.CastleDataApplication" />
@@ -107,7 +121,8 @@
       <option name="presentableId" value="Default" />
       <updated>1671736515530</updated>
       <workItem from="1671736515534" duration="2555000" />
-      <workItem from="1671818658343" duration="1121000" />
+      <workItem from="1671818658343" duration="6434000" />
+      <workItem from="1672005092092" duration="5083000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1671736559654</created>
@@ -144,7 +159,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671737131206</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="castle-weather-client module created">
+      <created>1671821618349</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671821618349</updated>
+    </task>
+    <task id="LOCAL-00007" summary="castle-weather-client module added as a submodule of castle">
+      <created>1671821705091</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671821705091</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +194,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="castle-data submodule added" />
     <MESSAGE value="Test Entity &quot;User&quot; and connectivity with database added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Entity &quot;User&quot; and connectivity with database added" />
+    <MESSAGE value="castle-weather-client module created" />
+    <MESSAGE value="castle-weather-client module added as a submodule of castle" />
+    <option name="LAST_COMMIT_MESSAGE" value="castle-weather-client module added as a submodule of castle" />
   </component>
 </project>
