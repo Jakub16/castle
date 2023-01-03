@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee3900c-1962-49b7-a9f3-1265b18e57b0" name="Changes" comment="castle-weather-client module added as a submodule of castle">
-      <change afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/IWeatherClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/IWeatherClientSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/WeatherClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/WeatherClientSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/WeatherDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/WeatherSummaryDto.java" afterDir="false" />
+    <list default="true" id="1ee3900c-1962-49b7-a9f3-1265b18e57b0" name="Changes" comment="Created WeatherClient and DTO classes that the client will convert received JSON's to">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/test/java/com/castle/weatherclient/CastleWeatherClientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/test/java/com/castle/weatherclient/WeatherClientTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/CastleWeatherClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/CastleWeatherClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/IWeatherClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/IWeatherClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/WeatherClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/WeatherClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/WeatherClientSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/WeatherClientSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/test/java/com/castle/weatherclient/WeatherClientTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/test/java/com/castle/weatherclient/WeatherClientTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,46 +54,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Programowanie/smart_home/castle",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "7a227596af4b4065e18faa8e00b48c96",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programowanie/smart_home/castle&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;7a227596af4b4065e18faa8e00b48c96&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programowanie\smart_home\castle\castle-data\src\main\java\com\castle\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CastleDataApplication">
+  <component name="RunManager" selected="Spring Boot.CastleWeatherClientApplication">
     <configuration name="CastleDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <envs>
         <env name="MYSQL_PASSWORD" value="SecretSpringPassword27" />
         <env name="MYSQL_USERNAME" value="castleuser" />
         <env name="OPENWEATHERMAP_API_KEY" value="e04e68bd81725ee021ec994cfa3ee71f" />
+        <env name="LOCATION_LATITUDE" value="54.294622" />
+        <env name="LOCATION_LONGITUDE" value="18.538320" />
       </envs>
       <module name="castle-data.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.castle.data.CastleDataApplication" />
@@ -122,7 +123,10 @@
       <updated>1671736515530</updated>
       <workItem from="1671736515534" duration="2555000" />
       <workItem from="1671818658343" duration="6434000" />
-      <workItem from="1672005092092" duration="5083000" />
+      <workItem from="1672005092092" duration="5521000" />
+      <workItem from="1672657879967" duration="3579000" />
+      <workItem from="1672685105762" duration="2159000" />
+      <workItem from="1672777444259" duration="1599000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1671736559654</created>
@@ -173,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671821705091</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Created WeatherClient and DTO classes that the client will convert received JSON's to">
+      <created>1672089836103</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672089836103</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Created WeatherClient and DTO classes that the client will convert received JSON's to">
+      <created>1672089870570</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672089870570</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +214,7 @@
     <MESSAGE value="Test Entity &quot;User&quot; and connectivity with database added" />
     <MESSAGE value="castle-weather-client module created" />
     <MESSAGE value="castle-weather-client module added as a submodule of castle" />
-    <option name="LAST_COMMIT_MESSAGE" value="castle-weather-client module added as a submodule of castle" />
+    <MESSAGE value="Created WeatherClient and DTO classes that the client will convert received JSON's to" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created WeatherClient and DTO classes that the client will convert received JSON's to" />
   </component>
 </project>
