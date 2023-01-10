@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee3900c-1962-49b7-a9f3-1265b18e57b0" name="Changes" comment="Created WeatherClient and DTO classes that the client will convert received JSON's to">
+    <list default="true" id="1ee3900c-1962-49b7-a9f3-1265b18e57b0" name="Changes" comment="Fixed a mistake in the WeatherClient - I don't want to get weather by unix time, I only want to get current weather. Although, it might be extended in future">
+      <change afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/DailyWeatherDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/DailyWeatherElementDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/HourlyWeatherDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/HourlyWeatherElementDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/WeatherDescriptionDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/CastleWeatherClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/CastleWeatherClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-client" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/IWeatherClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/IWeatherClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/WeatherClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/WeatherClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/WeatherClientSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/WeatherClientSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/WeatherDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/WeatherDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/WeatherSummaryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/WeatherSummaryDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/castle-weather-client/src/test/java/com/castle/weatherclient/WeatherClientTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/test/java/com/castle/weatherclient/WeatherClientTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +113,13 @@
       </method>
     </configuration>
     <configuration name="CastleWeatherClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <envs>
+        <env name="MYSQL_PASSWORD" value="SecretSpringPassword27" />
+        <env name="MYSQL_USERNAME" value="castleuser" />
+        <env name="OPENWEATHERMAP_API_KEY" value="e04e68bd81725ee021ec994cfa3ee71f" />
+        <env name="LOCATION_LATITUDE" value="54.294622" />
+        <env name="LOCATION_LONGITUDE" value="18.538320" />
+      </envs>
       <module name="castle-weather-client.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.castle.weatherclient.CastleWeatherClientApplication" />
       <method v="2">
@@ -126,7 +140,12 @@
       <workItem from="1672005092092" duration="5521000" />
       <workItem from="1672657879967" duration="3579000" />
       <workItem from="1672685105762" duration="2159000" />
-      <workItem from="1672777444259" duration="1599000" />
+      <workItem from="1672777444259" duration="2437000" />
+      <workItem from="1672858818858" duration="2099000" />
+      <workItem from="1672918385898" duration="2145000" />
+      <workItem from="1673027358729" duration="8018000" />
+      <workItem from="1673353478273" duration="771000" />
+      <workItem from="1673383026392" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1671736559654</created>
@@ -191,7 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672089870570</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fixed a mistake in the WeatherClient - I don't want to get weather by unix time, I only want to get current weather. Although, it might be extended in future">
+      <created>1672780507248</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672780507248</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fixed a mistake in the WeatherClient - I don't want to get weather by unix time, I only want to get current weather. Although, it might be extended in future">
+      <created>1672780555975</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672780555975</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +248,7 @@
     <MESSAGE value="castle-weather-client module created" />
     <MESSAGE value="castle-weather-client module added as a submodule of castle" />
     <MESSAGE value="Created WeatherClient and DTO classes that the client will convert received JSON's to" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created WeatherClient and DTO classes that the client will convert received JSON's to" />
+    <MESSAGE value="Fixed a mistake in the WeatherClient - I don't want to get weather by unix time, I only want to get current weather. Although, it might be extended in future" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a mistake in the WeatherClient - I don't want to get weather by unix time, I only want to get current weather. Although, it might be extended in future" />
   </component>
 </project>
