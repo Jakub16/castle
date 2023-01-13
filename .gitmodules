@@ -4,3 +4,6 @@
 [submodule "castle-weather-client"]
 	path = castle-weather-client
 	url = https://github.com/Jakub16/castle-weather-client.git
+[submodule "castle-weather-updater"]
+	path = castle-weather-updater
+	url = https://github.com/Jakub16/castle-weather-updater.git
