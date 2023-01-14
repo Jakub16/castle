@@ -4,8 +4,12 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/castle-data" />
     <file type="web" url="file://$PROJECT_DIR$/castle-weather-client" />
+    <file type="web" url="file://$PROJECT_DIR$/castle-weather-updater" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
   </component>
 </project>
