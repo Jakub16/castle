@@ -2,13 +2,30 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Gradle Imported" enabled="true">
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.24/13a394eed5c4f9efb2a6d956e2086f1d81e857d9/lombok-1.18.24.jar" />
-        </processorPath>
-        <module name="castle-weather-updater.main" />
+        <module name="castle-data" />
+        <module name="castle-weather-updater" />
+        <module name="castle-weather-client" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="castle-data.main" target="17" />
+      <module name="castle-data.test" target="17" />
+      <module name="castle-weather-client.main" target="17" />
+      <module name="castle-weather-client.test" target="17" />
+      <module name="castle-weather-updater.main" target="17" />
+      <module name="castle-weather-updater.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="castle-data" options="-parameters" />
+      <module name="castle-weather-client" options="-parameters" />
+      <module name="castle-weather-updater" options="-parameters" />
+    </option>
   </component>
 </project>

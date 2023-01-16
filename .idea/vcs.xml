@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/castle-data" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/castle-weather-client" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/castle-weather-updater" vcs="Git" />

@@ -4,42 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee3900c-1962-49b7-a9f3-1265b18e57b0" name="Changes" comment="castle-weather-updater module add">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/model/DailyWeather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/model/HourlyWeather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/model/Weather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/model/WeatherDescription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/model/WeatherSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/repositories/DailyWeatherRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/repositories/DataRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/repositories/HourlyWeatherRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/repositories/IDataRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/repositories/WeatherDescriptionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/repositories/WeatherRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/Main.java" afterDir="false" />
+    <list default="true" id="336492f1-c8a6-4bc4-af58-2daea7fbccc5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-data/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-updater/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/Mappers/DailyWeatherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/Mappers/HourlyWeatherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/Mappers/IMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/Mappers/WeatherMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/castle-data.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/castle-data" beforeDir="false" afterPath="$PROJECT_DIR$/castle-data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/repositories/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-data/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/castle-data/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-data/build.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/castle-weather-client" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/CastleWeatherClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/CastleWeatherClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/IWeatherClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/IWeatherClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/IWeatherClientSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/IWeatherClientSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/WeatherClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/WeatherClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/DailyWeatherElementDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/DailyWeatherElementDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/HourlyWeatherElementDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/HourlyWeatherElementDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/WeatherDescriptionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/WeatherDescriptionDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/WeatherDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/WeatherDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/WeatherSummaryDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/test/java/com/castle/weatherclient/WeatherClientTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/test/java/com/castle/weatherclient/WeatherClientTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-client/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-client/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-updater/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-updater/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-updater/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-updater/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-updater/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/castle.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,118 +55,220 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/castle-weather-client">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/castle-weather-updater">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/castle-data">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="castle-weather-updater" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="castle-weather-updater" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="JpbToolWindowState">
-    <option name="isDesignerTabSelected" value="false" />
     <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2JHYXD1M5esOpDx07q0TklTKkdk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KPyIB1hyxcLjFUMPwvUlYPvKPY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programowanie/smart_home/castle&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.haulmont.jpb.viewMode&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;8182fa249940a134ad189759fcb1f731&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
-    ]
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Programowanie/smart_home/castle",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Programowanie\smart_home\castle\castle-data\src\main\java\com\castle\data" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programowanie\smart_home\castle\castle-weather-updater" />
+      <recent name="D:\Programowanie\smart_home\castle\castle-data" />
+      <recent name="D:\Programowanie\smart_home\castle\castle-weather-client" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <envs>
-        <env name="MYSQL_PASSWORD" value="SecretSpringPassword27" />
-        <env name="MYSQL_USERNAME" value="castleuser" />
-        <env name="OPENWEATHERMAP_API_KEY" value="e04e68bd81725ee021ec994cfa3ee71f" />
-        <env name="LOCATION_LATITUDE" value="54.294622" />
-        <env name="LOCATION_LONGITUDE" value="18.538320" />
-      </envs>
-      <option name="MAIN_CLASS_NAME" value="com.castle.weatherclient.Main" />
-      <module name="castle-weather-client.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.castle.weatherclient.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle publish" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CastleWeatherUpdaterApplication (1)">
+    <configuration name="castle-data [generatePomFileForCustomLibraryPublication]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/castle-data" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="generatePomFileForCustomLibraryPublication" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="castle-data [publishToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/castle-data" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="publishToMavenLocal" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="castle-data [publish]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/castle-data" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="publish" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="castle-weather-updater [generatePomFileForCustomLibraryPublication]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/castle-weather-updater" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="generatePomFileForCustomLibraryPublication" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="castle-weather-updater [publish]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/castle-weather-updater" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="publish" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CastleDataApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="castle-data" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.castle.data.CastleDataApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="CastleDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <envs>
-        <env name="MYSQL_PASSWORD" value="SecretSpringPassword27" />
-        <env name="MYSQL_USERNAME" value="castleuser" />
-        <env name="OPENWEATHERMAP_API_KEY" value="e04e68bd81725ee021ec994cfa3ee71f" />
-        <env name="LOCATION_LATITUDE" value="54.294622" />
-        <env name="LOCATION_LONGITUDE" value="18.538320" />
-      </envs>
       <module name="castle-data.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.castle.data.CastleDataApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CastleWeatherClientApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="castle-weather-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.castle.weatherclient.CastleWeatherClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CastleWeatherClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <envs>
-        <env name="MYSQL_PASSWORD" value="SecretSpringPassword27" />
-        <env name="MYSQL_USERNAME" value="castleuser" />
-        <env name="OPENWEATHERMAP_API_KEY" value="e04e68bd81725ee021ec994cfa3ee71f" />
-        <env name="LOCATION_LATITUDE" value="54.294622" />
-        <env name="LOCATION_LONGITUDE" value="18.538320" />
-      </envs>
       <module name="castle-weather-client.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.castle.weatherclient.CastleWeatherClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CastleWeatherUpdaterApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="castle-weather-updater" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.castle.weatherupdater.CastleWeatherUpdaterApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,182 +282,30 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.castle-weather-updater [generatePomFileForCustomLibraryPublication]" />
+        <item itemvalue="Gradle.castle-data [generatePomFileForCustomLibraryPublication]" />
+        <item itemvalue="Gradle.castle-data [publishToMavenLocal]" />
+        <item itemvalue="Gradle.castle-data [publish]" />
+        <item itemvalue="Gradle.castle-weather-updater [publish]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1ee3900c-1962-49b7-a9f3-1265b18e57b0" name="Changes" comment="" />
-      <created>1671736515530</created>
+      <changelist id="336492f1-c8a6-4bc4-af58-2daea7fbccc5" name="Changes" comment="" />
+      <created>1673890429362</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1671736515530</updated>
-      <workItem from="1671736515534" duration="2555000" />
-      <workItem from="1671818658343" duration="6434000" />
-      <workItem from="1672005092092" duration="5521000" />
-      <workItem from="1672657879967" duration="3579000" />
-      <workItem from="1672685105762" duration="2159000" />
-      <workItem from="1672777444259" duration="2437000" />
-      <workItem from="1672858818858" duration="2099000" />
-      <workItem from="1672918385898" duration="2145000" />
-      <workItem from="1673027358729" duration="8018000" />
-      <workItem from="1673353478273" duration="771000" />
-      <workItem from="1673383026392" duration="5248000" />
-      <workItem from="1673443195612" duration="2167000" />
-      <workItem from="1673467941876" duration="3795000" />
-      <workItem from="1673547197982" duration="5867000" />
-      <workItem from="1673607794044" duration="4242000" />
-      <workItem from="1673616388501" duration="507000" />
-      <workItem from="1673716934868" duration="870000" />
+      <updated>1673890429362</updated>
+      <workItem from="1673890430275" duration="4573000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial Commit">
-      <created>1671736559654</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1671736559654</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Initial Commit">
-      <created>1671736750756</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1671736750756</updated>
-    </task>
-    <task id="LOCAL-00003" summary="castle-data submodule added">
-      <created>1671736825174</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1671736825174</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Test Entity &quot;User&quot; and connectivity with database added">
-      <created>1671737116121</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1671737116121</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Test Entity &quot;User&quot; and connectivity with database added">
-      <created>1671737131206</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1671737131206</updated>
-    </task>
-    <task id="LOCAL-00006" summary="castle-weather-client module created">
-      <created>1671821618349</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1671821618349</updated>
-    </task>
-    <task id="LOCAL-00007" summary="castle-weather-client module added as a submodule of castle">
-      <created>1671821705091</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1671821705091</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Created WeatherClient and DTO classes that the client will convert received JSON's to">
-      <created>1672089836103</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1672089836103</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Created WeatherClient and DTO classes that the client will convert received JSON's to">
-      <created>1672089870570</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1672089870570</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Fixed a mistake in the WeatherClient - I don't want to get weather by unix time, I only want to get current weather. Although, it might be extended in future">
-      <created>1672780507248</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1672780507248</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Fixed a mistake in the WeatherClient - I don't want to get weather by unix time, I only want to get current weather. Although, it might be extended in future">
-      <created>1672780555975</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1672780555975</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Added new Dto classes for extended weather forecast (daily weather, hourly weather), also added methods in clint to get those. &#10;Fixed mistakes in DTO classes, it turned out that jsons from api have lists inside (variables were interpreted not how they should be), thus new DTO classes had to be created (WeatherDescriptionDto, DailyWeatherElementDto, HourlyWeatherElementDto).">
-      <created>1673383513327</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1673383513327</updated>
-    </task>
-    <task id="LOCAL-00013" summary="castle-weather-updater module add">
-      <created>1673611912770</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1673611912770</updated>
-    </task>
-    <task id="LOCAL-00014" summary="castle-weather-updater module add">
-      <created>1673612021109</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1673612021109</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial Commit" />
-    <MESSAGE value="castle-data submodule added" />
-    <MESSAGE value="Test Entity &quot;User&quot; and connectivity with database added" />
-    <MESSAGE value="castle-weather-client module created" />
-    <MESSAGE value="castle-weather-client module added as a submodule of castle" />
-    <MESSAGE value="Created WeatherClient and DTO classes that the client will convert received JSON's to" />
-    <MESSAGE value="Fixed a mistake in the WeatherClient - I don't want to get weather by unix time, I only want to get current weather. Although, it might be extended in future" />
-    <MESSAGE value="Added new Dto classes for extended weather forecast (daily weather, hourly weather), also added methods in clint to get those. &#10;Fixed mistakes in DTO classes, it turned out that jsons from api have lists inside (variables were interpreted not how they should be), thus new DTO classes had to be created (WeatherDescriptionDto, DailyWeatherElementDto, HourlyWeatherElementDto)." />
-    <MESSAGE value="castle-weather-updater module add" />
-    <option name="LAST_COMMIT_MESSAGE" value="castle-weather-updater module add" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/CastleWeatherClientApplication.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/CastleWeatherClientApplication.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/Main.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.bat" />
   </component>
 </project>
