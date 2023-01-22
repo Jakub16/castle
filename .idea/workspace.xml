@@ -4,47 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="336492f1-c8a6-4bc4-af58-2daea7fbccc5" name="Changes" comment="Changed Dto structure in weather-client because the previous one was wrong. Also solved issues with settings and building uris.&#10;Started creating Repeater in weather-updater. It will be responsible for inserting new weather data (received from client) into database in loop.">
-      <change afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/WeatherUpdater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/repeater/abstractions/IExecuteAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-updater/src/test/java/com/castle/weatherupdater/RepeaterActionThrowingExceptionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-updater/src/test/java/com/castle/weatherupdater/RepeaterTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-updater/src/test/java/com/castle/weatherupdater/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/Mappers/WeatherDescriptionMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/WeatherUpdater.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/repeater/Repeater.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/repeater/RepeaterThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/repeater/Task.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/repeater/abstractions/ICheckTaskExecution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/repeater/abstractions/IExecuteAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/repeater/abstractions/IHandleException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/repeater/abstractions/IProvideActionOnCompletedTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-updater/target/test-classes/com/castle/weatherupdater/RepeaterTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-updater/target/test-classes/com/castle/weatherupdater/RepeaterThrowingExceptionTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/castle-weather-updater/target/test-classes/com/castle/weatherupdater/Status.class" afterDir="false" />
+    <list default="true" id="336492f1-c8a6-4bc4-af58-2daea7fbccc5" name="Changes" comment="Repeater tool created and tested successfully">
+      <change afterPath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/model/DailyWeatherElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/model/HourlyWeatherElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/mappers/DailyWeatherElementMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/mappers/EntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/mappers/HourlyWeatherElementMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/mappers/ICatalogMappers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/repeater/IUpdateWeather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/repeater/RepeaterConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-data" beforeDir="false" afterPath="$PROJECT_DIR$/castle-data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-data/src/test/java/com/castle/data/CastleDataApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-data/src/test/java/com/castle/data/CastleDataApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/test/java/com/castle/weatherclient/WeatherClientTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/test/java/com/castle/weatherclient/WeatherClientTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/target/classes/com/castle/weatherclient/CastleWeatherClientApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/target/classes/com/castle/weatherclient/CastleWeatherClientApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/target/classes/com/castle/weatherclient/WeatherClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/target/classes/com/castle/weatherclient/WeatherClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/target/classes/com/castle/weatherclient/contract/CurrentDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/target/classes/com/castle/weatherclient/contract/DailyWeatherElementDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/target/classes/com/castle/weatherclient/contract/DailyWeatherElementDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/target/classes/com/castle/weatherclient/contract/HourlyWeatherElementDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/target/classes/com/castle/weatherclient/contract/HourlyWeatherElementDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-client/target/classes/com/castle/weatherclient/contract/WeatherDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/target/classes/com/castle/weatherclient/contract/WeatherDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-updater/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/model/DailyWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/model/DailyWeather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/model/HourlyWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-data/src/main/java/com/castle/data/model/HourlyWeather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-data/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/castle-data/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/CurrentWeatherDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/CurrentWeatherDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/HourlyWeatherDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/contract/HourlyWeatherDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/CastleWeatherUpdaterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/CastleWeatherUpdaterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/WeatherUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/WeatherUpdater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/mappers/DailyWeatherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/mappers/DailyWeatherMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/mappers/HourlyWeatherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/mappers/HourlyWeatherMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/mappers/IMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/mappers/IMapEntities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/mappers/WeatherDescriptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/mappers/WeatherDescriptionMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/mappers/WeatherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/mappers/WeatherMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/repeater/Repeater.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/repeater/Repeater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/repeater/RepeaterThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/repeater/RepeaterThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/repeater/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/repeater/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/repeater/abstractions/IActionOnCompletedTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/repeater/abstractions/IProvideActionOnCompletedTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/repeater/abstractions/IExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/repeater/abstractions/IHandleException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-updater/src/test/java/com/castle/weatherupdater/CastleWeatherUpdaterApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/Mappers/DailyWeatherMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/Mappers/DailyWeatherMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/Mappers/HourlyWeatherMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/Mappers/HourlyWeatherMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/Mappers/IMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/Mappers/IMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/Mappers/WeatherMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/Mappers/WeatherMapper.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +141,7 @@
       <command value="gradle publish" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.CastleDataApplication (1)">
     <configuration name="RepeaterActionThrowingExceptionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="castle-weather-updater" />
       <extension name="coverage">
@@ -238,6 +221,10 @@
       </method>
     </configuration>
     <configuration name="CastleDataApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <envs>
+        <env name="MYSQL_USERNAME" value="castleuser" />
+        <env name="MYSQL_PASSWORD" value="castlePassword" />
+      </envs>
       <module name="castle-data" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.castle.data.CastleDataApplication" />
       <method v="2">
@@ -323,7 +310,8 @@
       <workItem from="1674211343788" duration="5109000" />
       <workItem from="1674231310570" duration="9256000" />
       <workItem from="1674257053339" duration="265000" />
-      <workItem from="1674303336522" duration="3177000" />
+      <workItem from="1674303336522" duration="4535000" />
+      <workItem from="1674393594755" duration="11729000" />
     </task>
     <task id="LOCAL-00001" summary="Converted project from Gradle to Maven due to problems in adding module dependencies in Gradle.&#10;Created empty mappers classes">
       <created>1673895367602</created>
@@ -374,7 +362,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674053293549</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Repeater tool created and tested successfully">
+      <created>1674308062797</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674308062797</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Repeater tool created and tested successfully">
+      <created>1674308080035</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674308080035</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,18 +388,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Converted project from Gradle to Maven due to problems in adding module dependencies in Gradle.&#10;Created empty mappers classes" />
     <MESSAGE value="Changed Dto structure in weather-client because the previous one was wrong. Also solved issues with settings and building uris.&#10;Started creating Repeater in weather-updater. It will be responsible for inserting new weather data (received from client) into database in loop." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Dto structure in weather-client because the previous one was wrong. Also solved issues with settings and building uris.&#10;Started creating Repeater in weather-updater. It will be responsible for inserting new weather data (received from client) into database in loop." />
+    <MESSAGE value="Repeater tool created and tested successfully" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repeater tool created and tested successfully" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/castle-weather-client/src/main/java/com/castle/weatherclient/CastleWeatherClientApplication.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
         <watch expression="weatherDto.currentDto.weatherDescription.get(0)" />
