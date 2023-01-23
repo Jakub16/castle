@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/castle-data/pom.xml" />
         <option value="$PROJECT_DIR$/castle-weather-client/pom.xml" />
         <option value="$PROJECT_DIR$/castle-weather-updater/pom.xml" />
+        <option value="$PROJECT_DIR$/castle-web-api/pom.xml" />
       </list>
     </option>
   </component>

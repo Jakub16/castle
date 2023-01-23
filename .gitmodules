@@ -7,3 +7,6 @@
 [submodule "castle-weather-updater"]
 	path = castle-weather-updater
 	url = https://github.com/Jakub16/castle-weather-updater.git
+[submodule "castle-web-api"]
+	path = castle-web-api
+	url = https://github.com/Jakub16/castle-web-api.git
