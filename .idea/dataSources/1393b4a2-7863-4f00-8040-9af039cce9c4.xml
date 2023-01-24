@@ -951,571 +951,440 @@ castle|schema||castleuser||UPDATE|G</Grants>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="296" parent="288" name="user">
+    <table id="296" parent="288" name="weather">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="297" parent="288" name="user_seq">
+    <table id="297" parent="288" name="weather_description">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="298" parent="288" name="weather">
+    <table id="298" parent="288" name="weather_sensor">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="299" parent="288" name="weather_description">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </table>
-    <table id="300" parent="288" name="weather_sensor">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </table>
-    <column id="301" parent="292" name="id">
+    <column id="299" parent="292" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="302" parent="292" name="unix_time_of_forecast">
+    <column id="300" parent="292" name="unix_time_of_forecast">
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="303" parent="292" name="cloudiness">
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-    </column>
-    <column id="304" parent="292" name="day_perceived_temperature">
-      <DasType>float|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>4</Position>
-    </column>
-    <column id="305" parent="292" name="day_temperature">
-      <DasType>float|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>5</Position>
-    </column>
-    <column id="306" parent="292" name="evening_perceived_temperature">
-      <DasType>float|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>6</Position>
-    </column>
-    <column id="307" parent="292" name="evening_temperature">
-      <DasType>float|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>7</Position>
-    </column>
-    <column id="308" parent="292" name="humidity">
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>8</Position>
-    </column>
-    <column id="309" parent="292" name="max_temperature">
-      <DasType>float|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>9</Position>
-    </column>
-    <column id="310" parent="292" name="min_temperature">
-      <DasType>float|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>10</Position>
-    </column>
-    <column id="311" parent="292" name="morning_perceived_temperature">
-      <DasType>float|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>11</Position>
-    </column>
-    <column id="312" parent="292" name="morning_temperature">
-      <DasType>float|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>12</Position>
-    </column>
-    <column id="313" parent="292" name="night_perceived_temperature">
-      <DasType>float|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>13</Position>
-    </column>
-    <column id="314" parent="292" name="night_temperature">
-      <DasType>float|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>14</Position>
-    </column>
-    <column id="315" parent="292" name="pressure">
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>15</Position>
-    </column>
-    <column id="316" parent="292" name="probability_of_precipitation">
-      <DasType>float|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>16</Position>
-    </column>
-    <column id="317" parent="292" name="rain_amount">
-      <DasType>float|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>17</Position>
-    </column>
-    <column id="318" parent="292" name="sunrise">
-      <DasType>bigint|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>18</Position>
-    </column>
-    <column id="319" parent="292" name="sunset">
-      <DasType>bigint|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>19</Position>
-    </column>
-    <column id="320" parent="292" name="unix_time">
-      <DasType>bigint|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>20</Position>
-    </column>
-    <column id="321" parent="292" name="uvi">
-      <DasType>float|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>21</Position>
-    </column>
-    <column id="322" parent="292" name="wind_speed">
-      <DasType>float|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>22</Position>
-    </column>
-    <index id="323" parent="292" name="PRIMARY">
+    <index id="301" parent="292" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="324" parent="292" name="PRIMARY">
+    <key id="302" parent="292" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="325" parent="293" name="id">
+    <column id="303" parent="293" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="326" parent="293" name="cloudiness">
+    <column id="304" parent="293" name="cloudiness">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="327" parent="293" name="day_perceived_temperature">
+    <column id="305" parent="293" name="day_perceived_temperature">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="328" parent="293" name="day_temperature">
+    <column id="306" parent="293" name="day_temperature">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="329" parent="293" name="evening_perceived_temperature">
+    <column id="307" parent="293" name="evening_perceived_temperature">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="330" parent="293" name="evening_temperature">
+    <column id="308" parent="293" name="evening_temperature">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="331" parent="293" name="humidity">
+    <column id="309" parent="293" name="humidity">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <column id="332" parent="293" name="max_temperature">
+    <column id="310" parent="293" name="max_temperature">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>
-    <column id="333" parent="293" name="min_temperature">
+    <column id="311" parent="293" name="min_temperature">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>9</Position>
     </column>
-    <column id="334" parent="293" name="morning_perceived_temperature">
+    <column id="312" parent="293" name="morning_perceived_temperature">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>10</Position>
     </column>
-    <column id="335" parent="293" name="morning_temperature">
+    <column id="313" parent="293" name="morning_temperature">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>11</Position>
     </column>
-    <column id="336" parent="293" name="night_perceived_temperature">
+    <column id="314" parent="293" name="night_perceived_temperature">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>12</Position>
     </column>
-    <column id="337" parent="293" name="night_temperature">
+    <column id="315" parent="293" name="night_temperature">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>13</Position>
     </column>
-    <column id="338" parent="293" name="pressure">
+    <column id="316" parent="293" name="pressure">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>14</Position>
     </column>
-    <column id="339" parent="293" name="probability_of_precipitation">
+    <column id="317" parent="293" name="probability_of_precipitation">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>15</Position>
     </column>
-    <column id="340" parent="293" name="rain_amount">
+    <column id="318" parent="293" name="rain_amount">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>16</Position>
     </column>
-    <column id="341" parent="293" name="sunrise">
+    <column id="319" parent="293" name="sunrise">
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>17</Position>
     </column>
-    <column id="342" parent="293" name="sunset">
+    <column id="320" parent="293" name="sunset">
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>18</Position>
     </column>
-    <column id="343" parent="293" name="unix_time">
+    <column id="321" parent="293" name="unix_time">
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>19</Position>
     </column>
-    <column id="344" parent="293" name="uvi">
+    <column id="322" parent="293" name="uvi">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>20</Position>
     </column>
-    <column id="345" parent="293" name="wind_speed">
+    <column id="323" parent="293" name="wind_speed">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>21</Position>
     </column>
-    <column id="346" parent="293" name="daily_weather_id">
+    <column id="324" parent="293" name="daily_weather_id">
       <DasType>bigint|0s</DasType>
       <Position>22</Position>
     </column>
-    <foreign-key id="347" parent="293" name="FKrt9a4mw2ly1lcclqkkymmonhj">
+    <foreign-key id="325" parent="293" name="FKrt9a4mw2ly1lcclqkkymmonhj">
       <ColNames>daily_weather_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>daily_weather</RefTableName>
     </foreign-key>
-    <index id="348" parent="293" name="PRIMARY">
+    <index id="326" parent="293" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="349" parent="293" name="FKrt9a4mw2ly1lcclqkkymmonhj">
+    <index id="327" parent="293" name="FKrt9a4mw2ly1lcclqkkymmonhj">
       <ColNames>daily_weather_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="350" parent="293" name="PRIMARY">
+    <key id="328" parent="293" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="351" parent="294" name="id">
-      <AutoIncrement>6</AutoIncrement>
-      <DasType>bigint|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="352" parent="294" name="unix_time_of_forecast">
-      <DasType>bigint|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-    </column>
-    <index id="353" parent="294" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="354" parent="294" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="355" parent="295" name="id">
+    <column id="329" parent="294" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="356" parent="295" name="cloudiness">
+    <column id="330" parent="294" name="unix_time_of_forecast">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="331" parent="294" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="332" parent="294" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="333" parent="295" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="334" parent="295" name="cloudiness">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="357" parent="295" name="humidity">
+    <column id="335" parent="295" name="humidity">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="358" parent="295" name="perceived_temperature">
+    <column id="336" parent="295" name="perceived_temperature">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="359" parent="295" name="pressure">
+    <column id="337" parent="295" name="pressure">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="360" parent="295" name="probability_of_precipitation">
+    <column id="338" parent="295" name="probability_of_precipitation">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="361" parent="295" name="rain_amount">
+    <column id="339" parent="295" name="rain_amount">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <column id="362" parent="295" name="temperature">
+    <column id="340" parent="295" name="temperature">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>
-    <column id="363" parent="295" name="unix_time">
+    <column id="341" parent="295" name="unix_time">
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>9</Position>
     </column>
-    <column id="364" parent="295" name="uvi">
+    <column id="342" parent="295" name="uvi">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>10</Position>
     </column>
-    <column id="365" parent="295" name="wind_speed">
+    <column id="343" parent="295" name="wind_speed">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>11</Position>
     </column>
-    <column id="366" parent="295" name="hourly_weather_id">
+    <column id="344" parent="295" name="hourly_weather_id">
       <DasType>bigint|0s</DasType>
       <Position>12</Position>
     </column>
-    <foreign-key id="367" parent="295" name="FKgy5rwbiiunil3ma8yqaxp3mfr">
+    <foreign-key id="345" parent="295" name="FKgy5rwbiiunil3ma8yqaxp3mfr">
       <ColNames>hourly_weather_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>hourly_weather</RefTableName>
     </foreign-key>
-    <index id="368" parent="295" name="PRIMARY">
+    <index id="346" parent="295" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="369" parent="295" name="FKgy5rwbiiunil3ma8yqaxp3mfr">
+    <index id="347" parent="295" name="FKgy5rwbiiunil3ma8yqaxp3mfr">
       <ColNames>hourly_weather_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="370" parent="295" name="PRIMARY">
+    <key id="348" parent="295" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="371" parent="296" name="id">
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="372" parent="296" name="name">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <index id="373" parent="296" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="374" parent="296" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="375" parent="297" name="next_val">
-      <DasType>bigint|0s</DasType>
-      <Position>1</Position>
-    </column>
-    <column id="376" parent="298" name="id">
-      <AutoIncrement>47</AutoIncrement>
+    <column id="349" parent="296" name="id">
+      <AutoIncrement>1</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="377" parent="298" name="cloudiness">
+    <column id="350" parent="296" name="cloudiness">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="378" parent="298" name="humidity">
+    <column id="351" parent="296" name="humidity">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="379" parent="298" name="latitude">
+    <column id="352" parent="296" name="latitude">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="380" parent="298" name="longitude">
+    <column id="353" parent="296" name="longitude">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="381" parent="298" name="perceived_temperature">
+    <column id="354" parent="296" name="perceived_temperature">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="382" parent="298" name="pressure">
+    <column id="355" parent="296" name="pressure">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <column id="383" parent="298" name="sunrise">
+    <column id="356" parent="296" name="sunrise">
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>
-    <column id="384" parent="298" name="sunset">
+    <column id="357" parent="296" name="sunset">
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>9</Position>
     </column>
-    <column id="385" parent="298" name="temperature">
+    <column id="358" parent="296" name="temperature">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>10</Position>
     </column>
-    <column id="386" parent="298" name="unix_time">
+    <column id="359" parent="296" name="unix_time">
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>11</Position>
     </column>
-    <column id="387" parent="298" name="wind_speed">
+    <column id="360" parent="296" name="wind_speed">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>12</Position>
     </column>
-    <index id="388" parent="298" name="PRIMARY">
+    <index id="361" parent="296" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="389" parent="298" name="PRIMARY">
+    <key id="362" parent="296" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="390" parent="299" name="id">
+    <column id="363" parent="297" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="391" parent="299" name="description">
+    <column id="364" parent="297" name="description">
       <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="392" parent="299" name="icon">
+    <column id="365" parent="297" name="icon">
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="393" parent="299" name="main_description">
+    <column id="366" parent="297" name="main_description">
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="394" parent="299" name="daily_weather_element_id">
+    <column id="367" parent="297" name="daily_weather_element_id">
       <DasType>bigint|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="395" parent="299" name="hourly_weather_element_id">
+    <column id="368" parent="297" name="hourly_weather_element_id">
       <DasType>bigint|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="396" parent="299" name="weather_id">
+    <column id="369" parent="297" name="weather_id">
       <DasType>bigint|0s</DasType>
       <Position>7</Position>
     </column>
-    <foreign-key id="397" parent="299" name="FKq9pf0dh4f6y7fwvsum1xxebhc">
+    <foreign-key id="370" parent="297" name="FKq9pf0dh4f6y7fwvsum1xxebhc">
       <ColNames>daily_weather_element_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>daily_weather_element</RefTableName>
     </foreign-key>
-    <foreign-key id="398" parent="299" name="FKma4dt9817gmqnn1dl7xdx2ex1">
+    <foreign-key id="371" parent="297" name="FKma4dt9817gmqnn1dl7xdx2ex1">
       <ColNames>hourly_weather_element_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>hourly_weather_element</RefTableName>
     </foreign-key>
-    <foreign-key id="399" parent="299" name="FKlfx4nt3rxnw3y9o4j4cxstii0">
+    <foreign-key id="372" parent="297" name="FKlfx4nt3rxnw3y9o4j4cxstii0">
       <ColNames>weather_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>weather</RefTableName>
     </foreign-key>
-    <index id="400" parent="299" name="PRIMARY">
+    <index id="373" parent="297" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="401" parent="299" name="FKq9pf0dh4f6y7fwvsum1xxebhc">
+    <index id="374" parent="297" name="FKq9pf0dh4f6y7fwvsum1xxebhc">
       <ColNames>daily_weather_element_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="402" parent="299" name="FKma4dt9817gmqnn1dl7xdx2ex1">
+    <index id="375" parent="297" name="FKma4dt9817gmqnn1dl7xdx2ex1">
       <ColNames>hourly_weather_element_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="403" parent="299" name="FKlfx4nt3rxnw3y9o4j4cxstii0">
+    <index id="376" parent="297" name="FKlfx4nt3rxnw3y9o4j4cxstii0">
       <ColNames>weather_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="404" parent="299" name="PRIMARY">
+    <key id="377" parent="297" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="405" parent="300" name="id">
+    <column id="378" parent="298" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="406" parent="300" name="humidity">
+    <column id="379" parent="298" name="humidity">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="407" parent="300" name="sensor_location">
+    <column id="380" parent="298" name="sensor_location">
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="408" parent="300" name="sensor_name">
+    <column id="381" parent="298" name="sensor_name">
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="409" parent="300" name="sensor_type">
+    <column id="382" parent="298" name="sensor_type">
       <DasType>varchar(255)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="410" parent="300" name="temperature">
+    <column id="383" parent="298" name="temperature">
       <DasType>float|0s</DasType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <index id="411" parent="300" name="PRIMARY">
+    <index id="384" parent="298" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="412" parent="300" name="PRIMARY">
+    <key id="385" parent="298" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
