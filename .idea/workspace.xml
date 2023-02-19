@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="336492f1-c8a6-4bc4-af58-2daea7fbccc5" name="Changes" comment="Changes in web-api module. Added new end-points in the controller, everything works fine">
+    <list default="true" id="336492f1-c8a6-4bc4-af58-2daea7fbccc5" name="Changes" comment="Added logging in weather-updater">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-updater/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/CastleWeatherUpdaterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/java/com/castle/weatherupdater/CastleWeatherUpdaterApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-updater/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-weather-updater/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-weather-updater" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/CastleWeatherUpdaterApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/castle-weather-updater/target/classes/com/castle/weatherupdater/CastleWeatherUpdaterApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,36 +93,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programowanie/JAZ/k2-Jakub16-main/kolokwium&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.capture&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;457905202b155e775543ababa11840b6&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Programowanie/JAZ/k2-Jakub16-main/kolokwium",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Users/kubaz/AppData/Roaming/JetBrains/IntelliJIdea2022.3/node/node-v16.16.0-win-x64/node",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.idesettings.debugger.capture",
+    "spring.configuration.checksum": "457905202b155e775543ababa11840b6",
+    "ts.external.directory.path": "D:\\Programowanie\\smart_home\\castle\\castle-frontend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programowanie\smart_home\castle\castle-weather-updater" />
@@ -136,7 +137,7 @@
       <command value="gradle publish" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CastleWeatherUpdaterApplication">
+  <component name="RunManager" selected="npm.Angular CLI Server (castle-frontend)">
     <configuration name="RepeaterActionThrowingExceptionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="castle-weather-updater" />
       <extension name="coverage">
@@ -215,6 +216,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Angular Application (castle-frontend)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
     <configuration name="CastleDataApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="castle-data" />
       <selectedOptions>
@@ -275,12 +279,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Angular CLI Server (castle-frontend)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/castle-frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.Angular Application (castle-frontend)" />
       <item itemvalue="JUnit.RepeaterActionThrowingExceptionTests" />
       <item itemvalue="JUnit.RepeaterTests" />
       <item itemvalue="JUnit.RepeaterTests.checkAnotherTaskName" />
       <item itemvalue="JUnit.RepeaterTests.repeaterTaskShouldBeRemovedFromUpdaterAfterRemovingIt" />
       <item itemvalue="JUnit.RepeaterTests.sizeOfTasksListShouldBe2" />
+      <item itemvalue="npm.Angular CLI Server (castle-frontend)" />
       <item itemvalue="Spring Boot.CastleWebApiApplication" />
       <item itemvalue="Spring Boot.CastleDataApplication" />
       <item itemvalue="Spring Boot.CastleDataApplication (1)" />
@@ -329,7 +345,12 @@
       <workItem from="1674674654641" duration="8059000" />
       <workItem from="1674759662010" duration="6497000" />
       <workItem from="1674818339677" duration="3447000" />
-      <workItem from="1674826183401" duration="812000" />
+      <workItem from="1674826183401" duration="1433000" />
+      <workItem from="1674851427562" duration="239000" />
+      <workItem from="1675031579391" duration="2909000" />
+      <workItem from="1675118107408" duration="3503000" />
+      <workItem from="1675122932171" duration="59000" />
+      <workItem from="1676847832729" duration="1168000" />
     </task>
     <task id="LOCAL-00001" summary="Converted project from Gradle to Maven due to problems in adding module dependencies in Gradle.&#10;Created empty mappers classes">
       <created>1673895367602</created>
@@ -464,7 +485,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674766160016</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added logging in weather-updater">
+      <created>1674827191316</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1674827191316</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added logging in weather-updater">
+      <created>1674827204432</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1674827204432</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,7 +519,8 @@
     <MESSAGE value="Introduced changes to weather-mapper and weather-updater. Updating works correctly, everything is being saved to the database with help of repeater" />
     <MESSAGE value="Changes in web-api module. Introduced mappers (from entities to dtos), created dto classes" />
     <MESSAGE value="Changes in web-api module. Added new end-points in the controller, everything works fine" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in web-api module. Added new end-points in the controller, everything works fine" />
+    <MESSAGE value="Added logging in weather-updater" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logging in weather-updater" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

@@ -10,3 +10,6 @@
 [submodule "castle-web-api"]
 	path = castle-web-api
 	url = https://github.com/Jakub16/castle-web-api.git
+[submodule "castle-frontend"]
+	path = castle-frontend
+	url = https://github.com/Jakub16/castle-frontend.git
