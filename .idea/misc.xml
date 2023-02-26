@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/castle-data" />
+    <file type="web" url="file://$PROJECT_DIR$/castle-frontend-thymeleaf" />
     <file type="web" url="file://$PROJECT_DIR$/castle-weather-client" />
     <file type="web" url="file://$PROJECT_DIR$/castle-weather-updater" />
   </component>
@@ -14,6 +15,7 @@
         <option value="$PROJECT_DIR$/castle-weather-client/pom.xml" />
         <option value="$PROJECT_DIR$/castle-weather-updater/pom.xml" />
         <option value="$PROJECT_DIR$/castle-web-api/pom.xml" />
+        <option value="$PROJECT_DIR$/castle-thymeleaf-frontend/pom.xml" />
       </list>
     </option>
   </component>

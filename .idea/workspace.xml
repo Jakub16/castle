@@ -4,19 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="336492f1-c8a6-4bc4-af58-2daea7fbccc5" name="Changes" comment="Some work done on castle-frontend. Introduced example basic homepage.">
+    <list default="true" id="336492f1-c8a6-4bc4-af58-2daea7fbccc5" name="Changes" comment="Time fields of Dto's in webapi are now mapped to Date format">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/castle-frontend/src/app/contracts/daily-weather-element.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/castle-frontend/src/app/contracts/daily-weather.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/castle-frontend/src/app/contracts/hourly-weather-element.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/castle-frontend/src/app/contracts/hourly-weather.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/castle-frontend/src/app/contracts/weather-description.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-frontend/src/app/contracts/weather-sensor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-thymeleaf-frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-thymeleaf-frontend/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-thymeleaf-frontend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-thymeleaf-frontend/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-thymeleaf-frontend/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-thymeleaf-frontend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-thymeleaf-frontend/src/main/java/com/castle/thymeleaffrontend/CastleThymeleafFrontendApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-thymeleaf-frontend/src/main/java/com/castle/thymeleaffrontend/controllers/ThymeleafController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-thymeleaf-frontend/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-thymeleaf-frontend/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/castle-thymeleaf-frontend/src/test/java/com/castle/thymeleaffrontend/CastleThymeleafFrontendApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-data" beforeDir="false" afterPath="$PROJECT_DIR$/castle-data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-data/target/classes/com/castle/data/model/WeatherSensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/castle-data/target/classes/com/castle/data/model/WeatherSensor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-frontend" beforeDir="false" afterPath="$PROJECT_DIR$/castle-frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/castle-frontend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-frontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/castle-frontend/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/castle-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/castle-frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/castle-frontend/src/app/api.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/castle-frontend/src/app/api.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-frontend/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/castle-frontend/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/castle-frontend/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/castle-frontend/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/castle-frontend/src/app/contracts/weather.ts" beforeDir="false" afterPath="$PROJECT_DIR$/castle-frontend/src/app/contracts/weather.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-frontend/src/app/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/castle-frontend/src/app/home/home.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-frontend/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/castle-frontend/src/app/home/home.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/castle-frontend/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/castle-frontend/src/app/home/home.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/castle-frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/castle-frontend/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-web-api/src/main/java/com/castle/webapi/contract/DailyWeatherElementDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-web-api/src/main/java/com/castle/webapi/contract/DailyWeatherElementDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/castle-web-api/src/main/java/com/castle/webapi/mappers/DailyWeatherElementMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-web-api/src/main/java/com/castle/webapi/mappers/DailyWeatherElementMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-web-api" beforeDir="false" afterPath="$PROJECT_DIR$/castle-web-api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-web-api/src/main/java/com/castle/webapi/contract/HourlyWeatherDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-web-api/src/main/java/com/castle/webapi/contract/HourlyWeatherDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-web-api/src/main/java/com/castle/webapi/contract/WeatherDescriptionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-web-api/src/main/java/com/castle/webapi/contract/WeatherDescriptionDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-web-api/src/main/java/com/castle/webapi/contract/WeatherDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-web-api/src/main/java/com/castle/webapi/contract/WeatherDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-web-api/src/main/java/com/castle/webapi/controllers/WeatherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-web-api/src/main/java/com/castle/webapi/controllers/WeatherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-web-api/src/main/java/com/castle/webapi/services/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/castle-web-api/src/main/java/com/castle/webapi/services/WeatherService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +58,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/castle-data">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/castle-frontend-thymeleaf">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/castle-weather-client">
@@ -48,17 +84,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="castle-weather-updater" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="castle-weather-updater" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -69,8 +95,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="TypeScript File" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -101,38 +128,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programowanie/JAZ/lab-11-Jakub16&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/kubaz/AppData/Roaming/JetBrains/IntelliJIdea2022.3/node/node-v16.16.0-win-x64/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.capture&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;457905202b155e775543ababa11840b6&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Programowanie\\smart_home\\castle\\castle-frontend\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Programowanie/JAZ/lab-11-Jakub16",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Users/kubaz/AppData/Roaming/JetBrains/IntelliJIdea2022.3/node/node-v16.16.0-win-x64/node",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.idesettings.debugger.capture",
+    "spring.configuration.checksum": "457905202b155e775543ababa11840b6",
+    "ts.external.directory.path": "D:\\Programowanie\\smart_home\\castle\\castle-frontend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programowanie\smart_home\castle\castle-weather-updater" />
@@ -145,22 +173,7 @@
       <command value="gradle publish" />
     </option>
   </component>
-  <component name="RunManager" selected="npm.Angular CLI Server (castle-frontend)">
-    <configuration name="RepeaterActionThrowingExceptionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="castle-weather-updater" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.castle.weatherupdater.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.castle.weatherupdater" />
-      <option name="MAIN_CLASS_NAME" value="com.castle.weatherupdater.RepeaterActionThrowingExceptionTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.CastleThymeleafFrontendApplication">
     <configuration name="Angular Application (castle-frontend)" type="JavascriptDebugType" uri="http://localhost:4200">
       <method v="2" />
     </configuration>
@@ -177,6 +190,20 @@
     <configuration name="CastleDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="castle-data.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.castle.data.CastleDataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CastleFrontendThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="castle-frontend-thymeleaf.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.castle.frontendthymeleaf.CastleFrontendThymeleafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CastleThymeleafFrontendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="castle-thymeleaf-frontend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.castle.thymeleaffrontend.CastleThymeleafFrontendApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -234,6 +261,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="bootstrap" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/castle-frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="bootstrap" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/castle-frontend/package.json" />
       <command value="run" />
@@ -276,12 +313,14 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.Angular Application (castle-frontend)" />
-      <item itemvalue="JUnit.RepeaterActionThrowingExceptionTests" />
       <item itemvalue="npm.Angular CLI Server (castle-frontend)" />
+      <item itemvalue="npm.bootstrap" />
       <item itemvalue="npm.build" />
       <item itemvalue="npm.module" />
       <item itemvalue="npm.ng" />
       <item itemvalue="npm.watch" />
+      <item itemvalue="Spring Boot.CastleFrontendThymeleafApplication" />
+      <item itemvalue="Spring Boot.CastleThymeleafFrontendApplication" />
       <item itemvalue="Spring Boot.CastleWebApiApplication" />
       <item itemvalue="Spring Boot.CastleDataApplication" />
       <item itemvalue="Spring Boot.CastleDataApplication (1)" />
@@ -291,11 +330,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.bootstrap" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.module" />
         <item itemvalue="npm.ng" />
         <item itemvalue="npm.watch" />
-        <item itemvalue="JUnit.RepeaterActionThrowingExceptionTests" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +377,11 @@
       <workItem from="1676847832729" duration="2467000" />
       <workItem from="1676917719479" duration="8582000" />
       <workItem from="1677011049663" duration="6665000" />
-      <workItem from="1677095827074" duration="3208000" />
+      <workItem from="1677095827074" duration="10856000" />
+      <workItem from="1677109346410" duration="1640000" />
+      <workItem from="1677161110984" duration="13017000" />
+      <workItem from="1677189213072" duration="1629000" />
+      <workItem from="1677438126960" duration="4532000" />
     </task>
     <task id="LOCAL-00001" summary="Converted project from Gradle to Maven due to problems in adding module dependencies in Gradle.&#10;Created empty mappers classes">
       <created>1673895367602</created>
@@ -536,7 +579,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677019434099</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Time fields of Dto's in webapi are now mapped to Date format">
+      <created>1677099709958</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1677099709958</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Time fields of Dto's in webapi are now mapped to Date format">
+      <created>1677099753612</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1677099753612</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,7 +628,8 @@
     <MESSAGE value="Added castle-frontend module" />
     <MESSAGE value="Small changes in castle-frontend module, added 'home' component" />
     <MESSAGE value="Some work done on castle-frontend. Introduced example basic homepage." />
-    <option name="LAST_COMMIT_MESSAGE" value="Some work done on castle-frontend. Introduced example basic homepage." />
+    <MESSAGE value="Time fields of Dto's in webapi are now mapped to Date format" />
+    <option name="LAST_COMMIT_MESSAGE" value="Time fields of Dto's in webapi are now mapped to Date format" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

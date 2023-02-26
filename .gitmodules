@@ -13,3 +13,6 @@
 [submodule "castle-frontend"]
 	path = castle-frontend
 	url = https://github.com/Jakub16/castle-frontend.git
+[submodule "castle-thymeleaf-frontend"]
+	path = castle-thymeleaf-frontend
+	url = https://github.com/Jakub16/castle-thymeleaf-frontend.git

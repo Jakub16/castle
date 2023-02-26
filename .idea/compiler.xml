@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="castle-data" />
         <module name="castle-weather-updater" />
+        <module name="castle-thymeleaf-frontend" />
         <module name="castle-weather-client" />
         <module name="castle-web-api" />
       </profile>
@@ -16,6 +17,9 @@
     <bytecodeTargetLevel>
       <module name="castle-data.main" target="17" />
       <module name="castle-data.test" target="17" />
+      <module name="castle-frontend-thymeleaf" target="17" />
+      <module name="castle-frontend-thymeleaf.main" target="17" />
+      <module name="castle-frontend-thymeleaf.test" target="17" />
       <module name="castle-weather-client.main" target="17" />
       <module name="castle-weather-client.test" target="17" />
       <module name="castle-weather-updater.main" target="17" />
@@ -25,6 +29,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="castle-data" options="-parameters" />
+      <module name="castle-thymeleaf-frontend" options="-parameters" />
       <module name="castle-weather-client" options="-parameters" />
       <module name="castle-weather-updater" options="-parameters" />
       <module name="castle-web-api" options="-parameters" />
