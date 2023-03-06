@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/castle-data" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/castle-security" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/castle-thymeleaf-frontend" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/castle-weather-client" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/castle-weather-updater" vcs="Git" />

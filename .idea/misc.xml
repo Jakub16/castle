@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/castle-weather-updater/pom.xml" />
         <option value="$PROJECT_DIR$/castle-web-api/pom.xml" />
         <option value="$PROJECT_DIR$/castle-thymeleaf-frontend/pom.xml" />
+        <option value="$PROJECT_DIR$/castle-security/pom.xml" />
       </list>
     </option>
   </component>

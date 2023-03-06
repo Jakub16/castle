@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="336492f1-c8a6-4bc4-af58-2daea7fbccc5" name="Changes" comment="-Some work done on the thymeleaf-frontend module&#10;-Changed date format for DailyWeatherElementDto ('time').">
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+    <list default="true" id="336492f1-c8a6-4bc4-af58-2daea7fbccc5" name="Changes" comment="Deleted castle-frontend module, therefore it is no longer needed (switched to thymeleaf, look module castle-thymeleaf-frontend)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/castle-security/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/castle-security/HELP.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +164,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CastleSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="castle-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.castle.security.CastleSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CastleThymeleafFrontendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="castle-thymeleaf-frontend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.castle.thymeleaffrontend.CastleThymeleafFrontendApplication" />
@@ -281,6 +289,7 @@
       <item itemvalue="npm.module" />
       <item itemvalue="npm.ng" />
       <item itemvalue="npm.watch" />
+      <item itemvalue="Spring Boot.CastleSecurityApplication" />
       <item itemvalue="Spring Boot.CastleFrontendThymeleafApplication" />
       <item itemvalue="Spring Boot.CastleThymeleafFrontendApplication" />
       <item itemvalue="Spring Boot.CastleWebApiApplication" />
@@ -347,7 +356,9 @@
       <workItem from="1677529962037" duration="3530000" />
       <workItem from="1677616143217" duration="5027000" />
       <workItem from="1677667984742" duration="3672000" />
-      <workItem from="1677707242862" duration="5338000" />
+      <workItem from="1677707242862" duration="6347000" />
+      <workItem from="1677968856097" duration="1217000" />
+      <workItem from="1678101352806" duration="284000" />
     </task>
     <task id="LOCAL-00001" summary="Converted project from Gradle to Maven due to problems in adding module dependencies in Gradle.&#10;Created empty mappers classes">
       <created>1673895367602</created>
@@ -594,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677712815031</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Deleted castle-frontend module, therefore it is no longer needed (switched to thymeleaf, look module castle-thymeleaf-frontend)">
+      <created>1677713374316</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1677713374316</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,7 +652,8 @@
     <MESSAGE value="Created ThymeleafController, started constructing home page. Changed format of sunrise and sunset in Dtos (HH:mm now)." />
     <MESSAGE value="RepeaterActionThrowingExceptionTests added." />
     <MESSAGE value="-Some work done on the thymeleaf-frontend module&#10;-Changed date format for DailyWeatherElementDto ('time')." />
-    <option name="LAST_COMMIT_MESSAGE" value="-Some work done on the thymeleaf-frontend module&#10;-Changed date format for DailyWeatherElementDto ('time')." />
+    <MESSAGE value="Deleted castle-frontend module, therefore it is no longer needed (switched to thymeleaf, look module castle-thymeleaf-frontend)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted castle-frontend module, therefore it is no longer needed (switched to thymeleaf, look module castle-thymeleaf-frontend)" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
